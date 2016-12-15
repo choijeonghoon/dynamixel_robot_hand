@@ -122,7 +122,7 @@ class exampleRos : public rosNamu::Rosel {
 			ROS_INFO("Position Alignment...");
     
    		 	std_msgs::Float64 msg;
-  			double curr_pos = M_PI, adder = 0.0025f, max_pos = 0.5f;
+  			//double curr_pos = M_PI, adder = 0.0025f, max_pos = 0.5f;
   		  	int test_cnt = 0;
    		 	while(ros::ok()) {
       			msg.data = _INIT_POS;
